@@ -111,7 +111,10 @@ body * {
 </code></pre></div><div class="card"><div class="lang">C#</div><pre class="code"><code>public void Main() 
 {
     Console.WriteLine("Hello, world!");
-}</code></pre></div></div></div><div class="case"><div class="name">Variables and Constants</div><div class="pair"><div class="card"><div class="lang">Kotlin</div><pre class="code"><code>var myVariable = 42
+}
+
+// C# 9 supports top-level statements
+Console.WriteLine("Hello, world!");</code></pre></div></div></div><div class="case"><div class="name">Variables and Constants</div><div class="pair"><div class="card"><div class="lang">Kotlin</div><pre class="code"><code>var myVariable = 42
 myVariable = 50
 
 val myConstant = 42
@@ -711,7 +714,7 @@ catch (Exception e)
 finally 
 {
     // Optional finally block
-}</code></pre></div></div></div><div class="case"><div class="name">Exception Experssion</div><div class="pair"><div class="card"><div class="lang">Kotlin</div><pre class="code"><code>// try is an expression, i.e. it may have a return value
+}</code></pre></div></div></div><div class="case"><div class="name">Exception Expression</div><div class="pair"><div class="card"><div class="lang">Kotlin</div><pre class="code"><code>// try is an expression, i.e. it may have a return value
 val a: Int? = try { input.toInt() } 
               catch (e: NumberFormatException) { null }</code></pre></div><div class="card"><div class="lang">C#</div><pre class="code"><code>// try is not an expression
 int? a;
